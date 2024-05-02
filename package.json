@@ -1,0 +1,16 @@
+{
+  "name": "niobium-monorepo",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev:app": "pnpm -r --filter niobium run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.3.10"
+  }
+}
